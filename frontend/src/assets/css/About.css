@@ -1,0 +1,62 @@
+.card {
+    background-color: #1e1e1e; /* Dark card background */
+    border: 1px solid #f0c040; /* Gold border */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 20px rgba(240, 192, 64, 0.5); /* Gold shadow on hover */
+}
+
+.btn-primary {
+    background-color: #f0c040; /* Gold button background */
+    color: #121212; /* Dark text color for button */
+}
+
+.btn-primary:hover {
+    background-color: #d4a030; /* Darker gold on hover */
+}
+
+.bg-light {
+    background-color: #1e1e1e; /* Dark background for sections */
+}
+
+.text-secondary {
+    color: #b0b0b0; /* Lighter gray for secondary text */
+}
+#te{
+    color: white;
+}
+
+/*  */
+
+.parallax-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)),
+      url("https://media-hosting.imagekit.io//2d3f02a57be64ce0/collection-abstract-prism-light.jpg?Expires=1736068993&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JFaXyxeID2NaXzHc8bX1pFLatW-~XwMmESQqyeQDrClttCK4ZZES5BsgOA~pRTsrgcwCR4PY5yBKA1LE69UZQ3XE13dkcJJxh~Knkptwys~F1sPKf~dhfBKg5ZGIDHglNq0JRNbsRjQDmLOBGDhxRDaf-eYwMT8XPRiD0QEcwTU2h-0xMktAYnTA5VM556MDAK0RT5esx9xEq0ScyV2dqogfbhp42~JGQPZ9HrG86BpfsPNzRgBFX91B93ixmA6bWZBQ9vO~lA-K75yzTZP7xUX0e40BSLWOHUJbZt-JhAueIrfDXmgQ70x0C3H4-bJuDihpLqGvSiMXj3D6jDCW4g__");
+    background-size: cover;
+    background-position:center;
+  }
+  
+  .parallax-section h1 {
+    width: 40%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .content-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 2rem;
+  }
