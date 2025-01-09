@@ -7,6 +7,7 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import OurService from "../Components/OurService";
 import TechLabChatbot from "../Components/TechLabChatbot";
+import ScrollToTop from "../Components/ScrollToTop";
 
 const Home = () => {
   const handleReadMoreClick = () => {
@@ -42,8 +43,7 @@ const Home = () => {
       ></iframe>
 
       </div> */}
-
-      <div className="container-fluid">
+<div  className="container-fluid" style={{"--bs-gutter-x": "0rem","--bs-gutter-y": "0"}}>
         <Header />
         <main className="main-content">
           <div className="welcome-section" id="welcome-section">
@@ -65,10 +65,11 @@ const Home = () => {
       <div className="info-section">
         <div className="child">
           <img
-            src="https://img.freepik.com/free-photo/futuristic-computer-lab-with-bright-blue-lighting-generated-by-ai_188544-28200.jpg"
+            src="https://www.apolloinfotech.com/images/Home-img/Home-Slide1st.webp"
             alt=""
           />
         </div>
+        
         <div className="child">
           <h2>INNOVATIVE IT SOLUTION TAILORED TO YOUR BUSINESS NEED</h2>
           <p>
@@ -79,8 +80,10 @@ const Home = () => {
             increase efficiency, and save time and money.
           </p>
         </div>
+        
       </div>
         <TechLabChatbot/>
+        <ScrollToTop/>
       <OurService />
       <ProcessSteps />
       <Testimonials />

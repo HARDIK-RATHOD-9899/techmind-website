@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurService = () => {
   return (
-    <div>
+    <div className='bg-service'>
         <div className="services-container">
   <div className="section-title">
     <h1>OUR SERVICES</h1>

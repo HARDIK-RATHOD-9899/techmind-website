@@ -52,7 +52,7 @@ const About = () => {
         <ToastContainer />
 
         <section className="bg-light py-3 py-md-5 py-xl-8">
-          <div className="container">
+          <div className="containerr">
             <div className="row gy-3 gy-md-5 gy-lg-0 align-items-center">
               <div className="col-12 col-lg-5">
                 <h3 className="fs-6 text-secondary mb-2 mb-xl-3 text-left">

@@ -137,7 +137,7 @@ const ProcessSteps = () => {
   return (
     <>
       <style>{mediaQueryStyles}</style>
-      <div className="container">
+      <div className="container1">
         <div>
         <h1 className="heading">Our Plan</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eligendi porro eveniet eos cupiditate qui, quis animi consectetur, repellat voluptatem libero earum voluptatibus repellendus veniam deleniti, atque nihil minus quasi!</p>
