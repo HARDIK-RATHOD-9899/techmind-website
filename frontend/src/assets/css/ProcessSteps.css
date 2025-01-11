@@ -1,0 +1,35 @@
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    /* border: 5px solid; */
+    text-align: center;
+  }
+  
+  
+  .tt{
+    width: 100%;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .heading h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 8px;
+  }
+  
+  .heading span {
+      color: #1D4ED8;
+  }
+  
+  .heading p {
+      color: #4B5563;
+      max-width: 800px;
+      margin: 0 auto;
+  }

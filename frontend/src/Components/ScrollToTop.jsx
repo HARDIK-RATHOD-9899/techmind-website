@@ -34,6 +34,7 @@ const ScrollToTop = () => {
           onClick={scrollToTop}
           className="fixed bottom-8 left-8 p-3 rounded-full bg-blue-600 hover:bg-blue-700 transition-colors duration-300 shadow-lg"
           aria-label="Scroll to top"
+          style={{zIndex:"1000"}}
         >
           <svg
             width="24"

@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../assets/css/ProcessSteps.css"
+
 const ProcessSteps = () => {
   const styles = {
     timelineContainer: {
@@ -56,7 +58,7 @@ const ProcessSteps = () => {
 
     circle4: {
       top: "73%",
-      left: "1030px",
+      left: "920px",
     },
 
     icon: {
@@ -70,6 +72,7 @@ const ProcessSteps = () => {
       fontSize: "clamp(10px, 1.2vw, 14px)",
       textAlign: "center",
     },
+    
 
     // Media queries will be handled with CSS
   };
@@ -138,7 +141,7 @@ const ProcessSteps = () => {
     <>
       <style>{mediaQueryStyles}</style>
       <div className="container1">
-        <div>
+        <div className="tt">
         <h1 className="heading">Our Plan</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eligendi porro eveniet eos cupiditate qui, quis animi consectetur, repellat voluptatem libero earum voluptatibus repellendus veniam deleniti, atque nihil minus quasi!</p>
         </div>

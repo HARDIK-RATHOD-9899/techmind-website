@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MessageSquare, Send, X } from 'lucide-react';
+import '../assets/css/TechLabChatbot.css'
 
 const TechLabChatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
