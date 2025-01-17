@@ -30,6 +30,19 @@ const About = () => {
     <div>
         <Header/>
         <TechLabChatbot/>
+        <div className="video-background">
+      <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/lwX9oMEnd4Q?si=U2zTdrpQWIyVkI8s&autoplay=1&mute=1&loop=1&playlist=lwX9oMEnd4Q"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
+      </div>
         <main className="main-content">
           <div className="welcome-sectionn" id="welcome-section">
             <h1>Welcome to Akshaya Technolab</h1>
@@ -132,7 +145,6 @@ const About = () => {
         <div className="parallax-section" id="parallax1">
         <h1>Ready to Elevate Your Online Presence?</h1>
       </div>
-
         <Footer/>
     </div>
   )
